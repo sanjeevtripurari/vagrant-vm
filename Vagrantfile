@@ -16,7 +16,7 @@ Vagrant.configure(2) do |config|
   config.vm.define :ubuntu1 do |ubuntu1| 
   	ubuntu1.vm.box = "sanubuntu"
 	ubuntu1.vm.network  "private_network", ip: "192.168.156.10"
-	ubuntu1.vm.host_name="sanubuntu"
+	ubuntu1.vm.host_name="192.168.156.10"
 	config.ssh.username="sanjeevt"
 	config.ssh.insert_key="true"
 	config.ssh.forward_agent="true"
