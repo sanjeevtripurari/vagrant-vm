@@ -1,0 +1,12 @@
+# vagrant snapshot take ubuntu1 ubuntu1-hadoop
+# vagrant snapshot list
+#-------------------------------------------------------------------------#
+# Listing snapshots for 'ubuntu1':                                        #
+#   Name: ubuntu1-hadoop (UUID: a46c1d10-34a3-41fe-9910-18d523b59920) *   #
+#-------------------------------------------------------------------------#
+
+# vagrant snapshot back ubuntu1-hadoop  -- to restore
+# vagrant snapshot go ubuntu1 ubuntu1-hadoop  -- to restore specific
+
+# https://github.com/dergachev/vagrant-vbox-snapshot
+
