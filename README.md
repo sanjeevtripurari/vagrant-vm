@@ -26,6 +26,7 @@ Once have proper vagrant box running, we can create snapshot, in case of crash o
 ## Vagrant up
 * vagrant up
 * vagrant ssh
+* ssh -p 2222 vagrant@localhost (if above does not work)
 * if ssh is causing issues then check
 * vagrant ssh-config
 *   PasswordAuthentication no
@@ -40,6 +41,7 @@ Once have proper vagrant box running, we can create snapshot, in case of crash o
 ## For networking
 * Check the image, we need to have NatNetwork, with DHCP
 * ip is provided in the Vagrant file
+* ![NatNetwork](https://github.com/sanjeevtripurari/vagrant-vm/blob/master/vm-with-nat-network.jpg)
 
 
 ## Test Comment
