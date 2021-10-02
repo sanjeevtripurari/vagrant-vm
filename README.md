@@ -9,7 +9,6 @@ Once have proper vagrant box running, we can create snapshot, in case of crash o
 ## Setting up Vagrant
 * Download https://www.virtualbox.org/wiki/Downloads
 * VirtualBox platform packages. The binaries are released under the terms of the GPL version 2. (for your OS)
-* Mine is: VirtualBox 5.0.4 for OS X hosts  amd64
 * Extension: VirtualBox 5.0.4 Oracle VM VirtualBox Extension Pack  All supported platforms 
 * Download: http://vagrantup.com/downloads.html
 * Mine: MAC OS X [ Universal (32 and 64-bit)]
@@ -37,6 +36,10 @@ Once have proper vagrant box running, we can create snapshot, in case of crash o
 * rm -v /etc/udev/rules.d/70-persistent-net.rules  (in vagrant box)
 * 
 * voila we are done.. if you face any other issues do comment me.
+
+## For networking
+* Check the image, we need to have NatNetwork, with DHCP
+* ip is provided in the Vagrant file
 
 
 ## Test Comment

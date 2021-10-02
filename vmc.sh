@@ -3,7 +3,7 @@
 a=$1
 
 case $a in
-	3) ssh sanjeev@192.168.105.3;; 
-	4) ssh sanjeev@192.168.105.4 ;;
-	*) ssh sanjeev@192.168.105.2 ;;
+	1) ssh vagrant@192.168.90.10;;
+	2) ssh vagrant@192.168.90.20;;
+	*) ssh vagrant@192.168.90.10;;
 esac
